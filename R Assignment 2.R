@@ -1,4 +1,5 @@
 #Assignment 2 Description: Writing Functions and Debugging
+#Blog Post Link: https://jmmoses99-drjac.wordpress.com/2025/09/06/crash-course-in-r-assignment-2/
 #Use the vector:
 #assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 #Consider this function:

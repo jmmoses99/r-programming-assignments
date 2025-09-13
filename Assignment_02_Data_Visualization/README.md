@@ -1,4 +1,6 @@
 #Assignment 2  – Data Visualization Analyzing 2016 data “Poll” Data in R
+#Link to Blog:
+https://jmmoses99-drjac.wordpress.com/2025/09/13/week-3-data-visualization/
 ## Description
 Creates a bar plot using created data from df_polls data set
 Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Bernie")

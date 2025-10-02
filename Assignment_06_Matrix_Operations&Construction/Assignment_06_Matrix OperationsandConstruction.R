@@ -1,9 +1,7 @@
 #Assignment 6 Matrix Operations
-
 #Define Matrix
 A <- matrix(c(2, 0, 1, 3), ncol = 2)
 B <- matrix(c(5, 2, 4, -1), ncol = 2)
-
 #Checking Matrix
 View(A)
 View(B)
@@ -33,3 +31,4 @@ new_matrix5 <- cbind(G,H)
 View(new_matrix5)
 diag(new_matrix5)
 View(new_matrix5)
+

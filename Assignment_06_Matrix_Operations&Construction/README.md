@@ -1,3 +1,5 @@
+Assignment 06: 
+Blog https://jmmoses99-drjac.wordpress.com/2025/10/02/week-6-matrix-operations/
 Objectives
 Practice basic matrix arithmetic in R (addition, subtraction).
 Learn to create diagonal matrices with diag().

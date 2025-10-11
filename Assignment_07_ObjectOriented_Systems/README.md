@@ -17,5 +17,8 @@ Explore S3 vs. S4
 Create an S3 object example
 Create an S4 class and object
 
+Blog: https://jmmoses99-drjac.wordpress.com/2025/10/10/week-7-object-oriented-systems/
+
+
 
 Install Packages: install.packages("pryr")

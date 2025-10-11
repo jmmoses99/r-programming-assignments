@@ -22,6 +22,7 @@ s3_obj <- list(conc ~ density, data = DNase)
 print(s3_obj)
 class(s3_obj) <- "Recombinant Protein"
 print(s3_obj)
+print(class(s3_obj))
 
 #Check Class S3
 otype(s3_obj)
@@ -45,3 +46,4 @@ typeof(s4_obj) #Checks objects base type
 attributes(s4_obj) # Checks attributes of data
 
 is.object(s4_obj) # Supposed to return false, but does not; not a pure base type
+

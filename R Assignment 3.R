@@ -16,10 +16,7 @@ View(df_polls)#Creates a table of df_polls
 ggplot(data = df_polls,aes(x = Name,y = Diff))+ #pulls data frame df_polls into bar graph and defines x and y variables
   geom_bar(fill = "red",stat = "identity")+ # fill gives color of bars and stat gives y value in bar graph
 labs(x = "Name", y = "Difference in CBS_poll and ABC_poll",title = "Analyzing 2016 data “Poll” Data in R") #labeling bar graph
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b125fa456d8348c9b613138804f141c5561c97a
 
 
 

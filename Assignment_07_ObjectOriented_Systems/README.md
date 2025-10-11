@@ -16,4 +16,6 @@ If a generic does *not* dispatch on your object, explain *why* (e.g., no method 
 Explore S3 vs. S4
 Create an S3 object example
 Create an S4 class and object
+
+
 Install Packages: install.packages("pryr")

@@ -1,0 +1,3 @@
+"Group"	"Mean_Length"
+"names"	310.606177606178
+"sequences"	322.451737451737

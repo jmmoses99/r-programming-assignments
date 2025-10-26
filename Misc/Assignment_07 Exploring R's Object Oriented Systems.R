@@ -22,9 +22,11 @@ s3_obj <- list(conc ~ density, data = DNase)
 print(s3_obj)
 class(s3_obj) <- "Recombinant Protein"
 print(class(s3_obj))
+
 #Check Class S3
 otype(s3_obj)
 typeof(s3_obj) #Output is "list"
+
 
 #UseMethod(s3_obj) # error 'generic' argument must be a character string
 

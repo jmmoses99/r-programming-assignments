@@ -55,10 +55,14 @@ library(dplyr)
    stringsAsFactors = FALSE
  )
  filtered_data <- new_proteome_df %>%
-   slice(1:2) %>%  # Select only the first two rows
-   filter(grepl("MVL", sequences)) 
+   #slice(1:2) %>%  # Select only the first two rows
+   filter(grepl("K|R|D|E|S|T|Q|P", sequences)) #IDP sequence search need to count instead somehow
 print(filtered_data)
 View(filtered_data)
+#Need to figure out how to count amino acid sequences
+
+
+
 
 #Extract names and write them to a CSV file
 

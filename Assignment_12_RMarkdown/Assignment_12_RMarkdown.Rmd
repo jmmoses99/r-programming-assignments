@@ -1,0 +1,37 @@
+---
+title: "My R Markdown Primer"
+author: "Janae Moses-Soto"
+date: "2025-11-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Introduction to R Markdown
+
+#R Markdown is a file format for making dynamic documents in R. It is written in markdown and contains chunks of embedded R code.
+
+##Narrative Paragraph
+
+#This is a practice narrative paragraph. Practicing R Markdown. I do not know if I like this.
+
+This is an inline equation: $y = mx + b$.
+
+And here is a displayed equation, used for a linear relationship of a line:
+
+$$ y = mx +b
+$$
+
+```{r code}
+library(ggplot2)
+data(mtcars)
+summary(mtcars)
+boxplot(mtcars)
+```
+
+
+## Conclusion
+
+This is my first time using R Markdown. I can see the benefits in using it to create a html,pdf, or presentation faster with more features. However, I am not as experience using R Markdown so it's easier for me to write a plain report. The embedded code feture could be useful when you need to write a report explaining certain parts of code.
